@@ -57,7 +57,7 @@ The Executive Summary provides an overview of:
 - Loan applications by type
 - Regional lending performance
 
-![Executive Summary](images/executive_summary.png)
+![Executive Summary](images/Executive_Summary.png)
 
 ### Loan Risk Analysis
 
