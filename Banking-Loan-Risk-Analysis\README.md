@@ -1,4 +1,4 @@
-```markdown
+
 # Banking Loan Risk Analysis Using SQL and Power BI
 
 ## Project Overview
