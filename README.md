@@ -1,134 +1,176 @@
 # Data Analysis Portfolio Projects
 
-This repository includes two data analysis projects: Uber Data Analysis using Python and Logistics Data Analysis using Excel. These projects were created to practice data cleaning, data analysis, visualization, and business reporting.
+This repository contains data analysis projects that I completed to develop practical skills in data cleaning, analysis, visualization, dashboard development, and business reporting.
 
-The main purpose of these projects is to show how raw data can be converted into useful insights using beginner-friendly tools like Python, Pandas, Matplotlib, and Microsoft Excel.
-
----
-
-## 1. Uber Data Analysis using Python
-
-This project analyzes Uber trip data to understand ride patterns, demand trends, and time-based activity. The dataset was cleaned and explored using Python.
-
-The analysis focuses on understanding how Uber rides change by date, time, hour, weekday, and location. Different charts were created to make the data easier to understand.
-
-### Tools Used
-
-- Python
-- Pandas
-- Matplotlib
-- NumPy
-- Jupyter Notebook
-
-### Main Work Done
-
-- Imported and loaded Uber trip dataset
-- Checked dataset information and missing values
-- Converted date and time column into proper datetime format
-- Extracted useful time columns such as hour, day, weekday, and month
-- Analyzed ride demand by hour
-- Analyzed ride demand by weekday
-- Created visualizations to understand trip patterns
-- Studied peak hours and busy travel times
-
-### Skills Demonstrated
-
-- Data loading
-- Data cleaning
-- Exploratory data analysis
-- Time-based analysis
-- Data visualization
-- Python programming
-- Business insight generation
-
-### Project Summary
-
-This project helped in understanding how ride demand changes during different times of the day and week. The analysis shows how Python can be used to study transportation data and find useful patterns from real-world datasets.
+The projects use tools such as Python, SQL, Power BI, and Excel to transform raw data into meaningful insights. Each project focuses on a different business problem and demonstrates a combination of analytical thinking, data exploration, and reporting.
 
 ---
 
-## 2. Logistics Data Analysis using Excel
+# 1. Banking Loan Risk Analysis using SQL and Power BI
 
-This project is based on a logistics and warehouse inventory dataset. The main goal of this project is to analyze inventory levels, stockout risk, reorder priority, warehouse zone performance, fulfillment rate, and inventory cost.
+This project analyzes customer and loan data for a fictional financial institution. The goal of the analysis is to understand loan approval patterns, default risk, customer credit profiles, and regional lending performance.
 
-The project was completed using Microsoft Excel with formulas, Pivot Tables, summary sheets, and dashboard visuals.
+SQL was used to clean, validate, join, and transform the data, while Power BI was used to build an interactive dashboard for reporting and business insights.
 
-### Tools Used
+## Tools Used
 
-- Microsoft Excel
-- Excel Tables
-- Excel Formulas
-- Pivot Tables
-- Conditional Formatting
-- Dashboard Design
+* SQL
+* SQLite
+* Power BI
+* DAX
+* Python
+* Pandas
+* Excel
 
-### Main Work Done
+## Main Work Done
 
-- Cleaned and organized logistics inventory data
-- Created calculated columns for inventory analysis
-- Identified low-stock items
-- Identified items at risk of stockout
-- Calculated inventory value
-- Calculated monthly holding cost
-- Calculated days of inventory left
-- Analyzed fulfillment performance
-- Analyzed warehouse zone performance
-- Created Pivot Table summaries
-- Created reorder priority analysis
-- Built a dashboard for business insights
+* Loaded and validated multiple banking datasets
+* Cleaned and transformed loan and customer data
+* Joined customer, account, branch, and loan tables
+* Created customer age, income, and credit score groups
+* Built SQL views for reporting and analysis
+* Calculated loan approval and default metrics
+* Created interactive Power BI dashboards
+* Developed KPI measures using DAX
 
-### Important Analysis Areas
+## Key Business Questions
 
-- Category-wise inventory summary
-- Stockout risk by category
-- Stock status by category
-- Warehouse zone performance
-- Reorder priority items
-- Fulfillment performance by category
-- Inventory cost and holding cost analysis
+* What is the overall loan approval rate?
+* What is the overall loan default rate?
+* How do income and credit score groups affect loan outcomes?
+* Which loan types have the highest application volume?
+* Which provinces account for the largest loan amounts?
+* Which customer groups present higher credit risk?
 
-### Skills Demonstrated
+## Skills Demonstrated
 
-- Excel data analysis
-- Inventory management analysis
-- Logistics reporting
-- Pivot Table reporting
-- KPI tracking
-- Dashboard creation
-- Business decision-making
-- Data organization
+* SQL data analysis
+* Data cleaning and validation
+* Relational database concepts
+* Power BI dashboard development
+* DAX calculations
+* Business reporting
+* Risk analysis
+* KPI development
 
-### Project Summary
+## Project Summary
 
-This project shows how Excel can be used for logistics and warehouse operations analysis. The final workbook helps to identify which items need reorder attention, which categories have high inventory value, and which warehouse zones need improvement.
+This project demonstrates how data can be used to evaluate lending performance and customer risk. The final dashboard helps identify approval trends, default risk patterns, and customer segments that may require additional review.
 
 ---
 
-## Overall Learning
+# 2. Uber Data Analysis using Python
 
-Both projects helped in building practical data analysis skills. The Uber project focuses more on Python-based analysis and visualization, while the Logistics project focuses more on Excel-based business reporting and dashboard creation.
+This project analyzes Uber trip data to understand ride demand patterns and time-based activity using Python.
 
-Together, these projects show the ability to work with raw data, clean it, analyze it, create summaries, and present insights in a clear way.
+The analysis focuses on identifying trends across hours, weekdays, and dates to better understand transportation demand and customer behavior.
+
+## Tools Used
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Jupyter Notebook
+
+## Main Work Done
+
+* Imported and explored Uber trip data
+* Checked data quality and missing values
+* Converted date columns into datetime format
+* Created additional time-based variables
+* Analyzed trip demand by hour and weekday
+* Built visualizations to identify usage patterns
+* Examined peak travel periods
+
+## Skills Demonstrated
+
+* Data cleaning
+* Exploratory data analysis
+* Time-series analysis
+* Data visualization
+* Python programming
+* Insight generation
+
+## Project Summary
+
+This project helped develop skills in Python-based data analysis and visualization. It demonstrates how transportation data can be analyzed to identify trends and support operational decision-making.
 
 ---
 
-## Key Skills Used Across Both Projects
+# 3. Logistics Data Analysis using Excel
 
-- Data cleaning
-- Data analysis
-- Exploratory data analysis
-- Excel formulas
-- Pivot Tables
-- Python programming
-- Pandas
-- Matplotlib
-- Dashboard creation
-- KPI analysis
-- Business reporting
-- Problem-solving
+This project focuses on warehouse inventory and logistics operations using Microsoft Excel.
+
+The objective was to evaluate inventory levels, stockout risk, reorder priorities, warehouse performance, and inventory costs through business reporting and dashboard development.
+
+## Tools Used
+
+* Microsoft Excel
+* Pivot Tables
+* Excel Formulas
+* Conditional Formatting
+* Dashboard Design
+
+## Main Work Done
+
+* Cleaned and organized inventory data
+* Calculated inventory value and holding costs
+* Identified low-stock and stockout-risk items
+* Calculated reorder priorities
+* Analyzed warehouse zone performance
+* Measured fulfillment performance
+* Created Pivot Table reports
+* Built an inventory management dashboard
+
+## Key Analysis Areas
+
+* Inventory health monitoring
+* Stockout risk analysis
+* Reorder planning
+* Warehouse performance
+* Fulfillment tracking
+* Inventory cost analysis
+
+## Skills Demonstrated
+
+* Excel data analysis
+* Logistics reporting
+* KPI tracking
+* Dashboard development
+* Inventory management analysis
+* Business reporting
+* Data organization
+
+## Project Summary
+
+This project demonstrates how Excel can be used to support logistics and inventory decision-making. The dashboard provides visibility into stock levels, inventory risk, warehouse operations, and fulfillment performance.
 
 ---
 
-## Portfolio Purpose
+# Skills Demonstrated Across Projects
 
-These projects are part of a learning portfolio for entry-level data analyst roles. The goal is to show practical experience with real datasets, analytical thinking, and the ability to present data in a useful and simple way.
+* Data Cleaning
+* Data Analysis
+* Exploratory Data Analysis (EDA)
+* SQL
+* Power BI
+* DAX
+* Excel
+* Pivot Tables
+* Python
+* Pandas
+* Matplotlib
+* Dashboard Development
+* KPI Reporting
+* Business Intelligence
+* Data Visualization
+* Problem Solving
+
+---
+
+# Portfolio Purpose
+
+These projects were created as part of my learning journey toward a career in Data Analytics. They demonstrate my ability to work with raw datasets, clean and transform data, perform analysis, build dashboards, and communicate findings through clear and meaningful reports.
+
+I am continuously expanding this portfolio by working on new projects and learning additional tools and techniques used in data analytics and business intelligence.
